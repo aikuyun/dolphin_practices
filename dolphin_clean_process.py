@@ -65,7 +65,7 @@ def delete(project,ids):
     print('即将删除如下工作流实例:')
     print(project)
     print(ids)
-    url = "http://10.1.19.150:7080/dolphinscheduler/projects/{project}/process-instances/batch-delete".format(project = project)
+    url = "{base_url}/dolphinscheduler/projects/{project}/process-instances/batch-delete".format(base_url=base_url,project = project)
     # 'processInstanceIds=89767'
     payload= ids
     headers = {
@@ -75,11 +75,9 @@ def delete(project,ids):
       'sessionId': '680b2a0e-624c-4804-9e9e-58c7d4a0b44c',
       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
       'Content-Type': 'application/x-www-form-urlencoded',
-      'Origin': 'http://10.1.19.150:7080',
-      'Referer': 'http://10.1.19.150:7080/dolphinscheduler/ui/',
+      'Referer': "{base_url}/dolphinscheduler/ui/".format(base_url=base_url),
       'Accept-Language': 'zh-CN,zh;q=0.9,pt;q=0.8,en;q=0.7',
-      'token':'10ea1b3b6f41669078518ea6e16663cf',
-      'Cookie': 'sessionId=680b2a0e-624c-4804-9e9e-58c7d4a0b44c; language=zh_CN; userName=admin; HERA_Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzc29JZCI6Ii0xIiwic3NvX25hbWUiOiJhZG1pbiIsImF1ZCI6IjJkZmlyZSIsImlzcyI6ImhlcmEiLCJleHAiOjE2NDYwMjk3MDYsInVzZXJJZCI6IjEiLCJpYXQiOjE2NDU3NzA1MDYsInVzZXJuYW1lIjoiYWRtaW4ifQ.YEhr9Mi7FDsQIAn5GJorB0U3lL92KQA8YvP26QMhh9g; sessionId=680b2a0e-624c-4804-9e9e-58c7d4a0b44c'
+      'token':token
     }
     response = requests.request("POST", url, headers=headers, data=payload)
     print('执行结果如下:')
