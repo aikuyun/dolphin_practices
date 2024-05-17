@@ -8,6 +8,8 @@ import requests
 import json
 import time
 import datetime
+from optparse import OptionParser
+from optparse import OptionGroup
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(module)s : %(message)s', level=logging.INFO,
                     stream=sys.stdout)
@@ -17,6 +19,20 @@ logger = logging.getLogger(__name__)
 base_url = 'http://IP:端口'
 token = 'xxxxxxxxxxxxx'
 
+# get args
+def get_option_parser(params):
+    usage = "usage: %prog [options] json-url"
+    parser = OptionParser(usage=usage)
+    prodEnvOptionGroup = OptionGroup(parser, "Product Env Options",
+                                     "Normal user use these options to set jvm parameters, job runtime mode etc. "
+                                     "Make sure these options can be used in Product Env.")
+    for k in params:
+        prodEnvOptionGroup.add_option("--" + k, metavar="<" + k + ">", dest=k, action="store", default="",
+                                      help="" + params[k])
+
+    parser.add_option_group(prodEnvOptionGroup)
+    return parser
+  
 # 获取项目列表
 def get_project_list():
     url = "{base_url}/dolphinscheduler/projects?pageSize=100&pageNo=1&searchVal=&_t=0.3741042528841678".format(base_url=base_url)
