@@ -6,7 +6,7 @@ Dolphinscheduler best practices 海豚调度最佳实践
 > 大数据学习指南
 
 - [海豚调度 DolphinScheduler(2.x和3.x版本) 本地环境搭建，方便本地调式代码
-](https://mp.weixin.qq.com/s?__biz=MzU0OTgxNjMyNA==&mid=2247484997&idx=1&sn=88b3e20eaf73ae1f34a28d21c3ff306a&chksm=fbab572eccdcde384b4535d4e78db82d5820422433bd0f38645caa5c47299644e6c52c6b6a37#rd)
+](https://mp.weixin.qq.com/s?__biz=MzU0OTgxNjMyNA==&mid=2247485711&idx=1&sn=857911630c577a38da1edd26c5a033ef&chksm=fbab5864ccdcd17230d31e6f731bde9c8690dabf6046ef813db724b60bfe37a972416c6fe2c3&token=1363120930&lang=zh_CN#rd)
 
 - [海豚调度优: 正在运行的工作流(DAG)，重新拉起失败的任务(Task)
 ](https://mp.weixin.qq.com/s?__biz=MzU0OTgxNjMyNA==&mid=2247485072&idx=1&sn=eac25ebc194c66a23bf7676efa33bcaa&chksm=fbab57fbccdcdeed11bf985e711beb3fb65da744dde6f7b82e4430285041675d8d247071a84a&token=974686163&lang=zh_CN#rd)
