@@ -16,3 +16,8 @@ Dolphinscheduler best practices 海豚调度最佳实践
 
 - [海豚调度监控：新增依赖缺失巡检，上游改动再也不用担心了！
 ](https://mp.weixin.qq.com/s?__biz=MzU0OTgxNjMyNA==&mid=2247485622&idx=1&sn=6ac7c893cd9cc34227666495d55cab3b&chksm=fbab59ddccdcd0cb7a0eb2546f7b554838d3484a585da73b3a602ffbeab148e9007a06e428e5&token=974686163&lang=zh_CN#rd)
+
+- [海豚调度异常处理 | 使用 arthas 在内存中删除启动失败的工作流，无需修改代码！](https://mp.weixin.qq.com/s?__biz=MzU0OTgxNjMyNA==&mid=2247485749&idx=1&sn=c73916db9f705026c9997994b9b2a39b&chksm=fbab585eccdcd14856f6d3c63383418e86a482c16c3fa117ca114ccc8c7e883194437e8b69a9&token=1126976585&lang=zh_CN#rd)
+
+- [海豚调度清理：使用 API 轻松清理历史工作流实例以及日志文件](https://mp.weixin.qq.com/s?__biz=MzU0OTgxNjMyNA==&mid=2247485725&idx=1&sn=b0d53f508bec0d1ab4ed784b5888fefd&chksm=fbab5876ccdcd16074fe9f458a0e359fe78cf27d46f3769a79fb60cec3a5f4afa45dc42351f0&token=1126976585&lang=zh_CN#rd)
+
