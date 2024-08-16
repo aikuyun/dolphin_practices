@@ -23,3 +23,5 @@ Dolphinscheduler best practices 海豚调度最佳实践
 
 - [海豚调度监控：使用图关系解决核心链路告警问题，减轻任务运维负担，用户五星好评！
 ](https://mp.weixin.qq.com/s?__biz=MzU0OTgxNjMyNA==&mid=2247485789&idx=1&sn=8491e513e821c9e14f1add55e45b8ca5&chksm=fbab5836ccdcd1200b0ee7c64a76eb45ac085089548ca18f4f11289ee658da16e6851b5f193d&token=1126976585&lang=zh_CN#rd)
+- [海豚调度清理：使用 API 轻松清理工作流历史版本记录，一键减少关系日志和任务定义日志表的数据量
+](https://mp.weixin.qq.com/s?__biz=MzU0OTgxNjMyNA==&mid=2247486181&idx=1&sn=93b56483079d0238984b956b519c39b5&chksm=fbab5b8eccdcd2989435a083c812f13a148eb878bf53e472c08d93e384166f8b252c476b174e&token=1247669049&lang=zh_CN#rd)
