@@ -130,8 +130,6 @@ def delete(project_code,dag_code,version):
       'sessionId': '680b2a0e-624c-4804-9e9e-58c7d4a0b44c',
       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
       'Content-Type': 'application/x-www-form-urlencoded',
-      'Origin': 'http://10.1.19.150:7080',
-      'Referer': 'http://10.1.19.150:7080/dolphinscheduler/ui/',
       'Accept-Language': 'zh-CN,zh;q=0.9,pt;q=0.8,en;q=0.7',
       'token':token,
       'Cookie': 'sessionId=680b2a0e-624c-4804-9e9e-58c7d4a0b44c; language=zh_CN; userName=admin; HERA_Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzc29JZCI6Ii0xIiwic3NvX25hbWUiOiJhZG1pbiIsImF1ZCI6IjJkZmlyZSIsImlzcyI6ImhlcmEiLCJleHAiOjE2NDYwMjk3MDYsInVzZXJJZCI6IjEiLCJpYXQiOjE2NDU3NzA1MDYsInVzZXJuYW1lIjoiYWRtaW4ifQ.YEhr9Mi7FDsQIAn5GJorB0U3lL92KQA8YvP26QMhh9g; sessionId=680b2a0e-624c-4804-9e9e-58c7d4a0b44c'
